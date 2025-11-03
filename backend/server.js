@@ -16,9 +16,6 @@ app.use(compression());
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
 app.use(express.static(path.join(__dirname, '../public')));
-app.get('/', (req, res) => {
-  res.sendFile(__dirname + '/../public/SONATUR INNOVAIA2025/index.html');
-});
 app.set('view engine','ejs');
 app.set('views', path.join(__dirname, 'views'));
 
@@ -77,6 +74,9 @@ app.get('/receipt/:code', async (req,res) => {
   const r = await pool.query('SELECT * FROM submissions WHERE receipt_code=$1', [code]);
   if(r.rows.length===0) return res.status(404).send('Not found');
   res.render('receipt', {row: r.rows[0]});
+});
+app.get('/', (req, res) => {
+  res.sendFile(__dirname + '/../public/SONATUR INNOVAIA2025/index.html');
 });
 
 app.use('/admin', basicAuth({
