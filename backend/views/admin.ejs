@@ -1,0 +1,6 @@
+<!doctype html>
+<html><head><meta charset="utf-8"><title>Admin - SONATUR</title></head>
+<body><h1>Admin - SONATUR</h1>
+<table border="1"><tr><th>Code</th><th>Nom</th><th>Email</th><th>Tel</th><th>Date</th></tr>
+<% rows.forEach(r=>{ %><tr><td><%= r.receipt_code %></td><td><%= r.full_name %></td><td><%= r.email %></td><td><%= r.phone %></td><td><%= r.created_at %></td></tr><% }) %>
+</table><a href="/admin/export.csv">Exporter CSV</a></body></html>
