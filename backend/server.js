@@ -16,6 +16,9 @@ app.use(compression());
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
 app.use(express.static(path.join(__dirname, '../public')));
+app.get('/', (req, res) => {
+  res.sendFile(__dirname + '/../public/SONATUR INNOVAIA2025/index.html');
+});
 app.set('view engine','ejs');
 app.set('views', path.join(__dirname, 'views'));
 
