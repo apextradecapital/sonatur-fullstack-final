@@ -1,0 +1,4 @@
+# HTTrack Website Copier Cookie File
+# This file format is compatible with Netscape cookies
+souscription.sonaturbf.net	TRUE	/	FALSE	1999999999	PHPSESSID	4ii1o9u6aot5f5fsidirb3u791
+

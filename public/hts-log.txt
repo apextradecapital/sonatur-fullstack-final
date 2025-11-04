@@ -1,0 +1,25 @@
+HTTrack3.49-2+htsswf+htsjava launched on Mon, 03 Nov 2025 03:50:48 at https://souscription.sonaturbf.net/ +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar
+(winhttrack -qwC2%Ps2u1%s%uN0%I0p3DaK0H0%kf2A25000%f#f -F "Mozilla/4.5 (compatible; HTTrack 3.0x; Windows 98)" -%F "<!-- Mirrored from %s%s by HTTrack Website Copier/3.x [XR&CO'2014], %s -->" -%l "fr, en, *" https://souscription.sonaturbf.net/ -O1 "C:\Users\Instal\Desktop\SONATUR INNOVAIA2025" +*.png +*.gif +*.jpg +*.jpeg +*.css +*.js -ad.doubleclick.net/* -mime:application/foobar )
+
+Information, Warnings and Errors reported for this mirror:
+note:	the hts-log.txt file, and hts-cache folder, may contain sensitive information,
+	such as username/password authentication for websites mirrored in this project
+	do not share these files/folders if you want these information to remain private
+
+03:50:55	Error: 	"error:00000005:lib(0):func(0):DH lib" (-5) after 2 retries at link https://souscription.sonaturbf.net/robots.txt (from primary/primary)
+03:52:00	Warning: 	Retry after error -4 (Connect Error) at link https://souscription.sonaturbf.net/assets/css/styles.css (from https://souscription.sonaturbf.net/)
+03:52:00	Error: 	"Not Found" (404) at link https://souscription.sonaturbf.net/assets/images/logo.png (from https://souscription.sonaturbf.net/)
+03:52:00	Warning: 	Retry after error -5 (error:00000005:lib(0):func(0):DH lib) at link https://souscription.sonaturbf.net/index.php?page=apropos (from https://souscription.sonaturbf.net/)
+03:52:00	Warning: 	Retry after error -4 (Connect Error) at link https://souscription.sonaturbf.net/souscrire (from https://souscription.sonaturbf.net/)
+03:52:02	Error: 	"Not Found" (404) at link https://souscription.sonaturbf.net/assets/images/hero-image.jpg (from https://souscription.sonaturbf.net/)
+03:52:02	Error: 	"Not Found" (404) at link https://souscription.sonaturbf.net/assets/images/tougan.jpg (from https://souscription.sonaturbf.net/)
+03:52:03	Error: 	"Not Found" (404) at link https://souscription.sonaturbf.net/assets/images/orodara.jpg (from https://souscription.sonaturbf.net/)
+03:52:03	Error: 	"Not Found" (404) at link https://souscription.sonaturbf.net/assets/images/about-image.jpg (from https://souscription.sonaturbf.net/)
+03:52:03	Error: 	"Not Found" (404) at link https://souscription.sonaturbf.net/assets/images/testimonial-1.jpg (from https://souscription.sonaturbf.net/)
+03:52:03	Error: 	"Not Found" (404) at link https://souscription.sonaturbf.net/assets/images/testimonial-2.jpg (from https://souscription.sonaturbf.net/)
+03:52:03	Error: 	"Not Found" (404) at link https://souscription.sonaturbf.net/assets/images/testimonial-3.jpg (from https://souscription.sonaturbf.net/)
+03:52:03	Error: 	"Not Found" (404) at link https://souscription.sonaturbf.net/assets/css/styles.css (from https://souscription.sonaturbf.net/)
+03:52:11	Warning: 	Retry after error -5 (error:00000005:lib(0):func(0):DH lib) at link https://souscription.sonaturbf.net/souscrire (from https://souscription.sonaturbf.net/)
+
+HTTrack Website Copier/3.49-2 mirror complete in 1 minutes 24 seconds : 30 links scanned, 16 files written (3372927 bytes overall) [447225 bytes received at 5324 bytes/sec], 3390058 bytes transferred using HTTP compression in 23 files, ratio 12%, 1.7 requests per connection
+(10 errors, 4 warnings, 0 messages)
